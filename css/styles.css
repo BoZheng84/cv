@@ -68,18 +68,29 @@ a:hover, a:active {
   color: white;
 }
 
-.projects {
+.projects1 {
   width: 1000px;
   margin: 60px auto;
   color: white;
 }
 
-.projects th{
+.projects1 th{
   font-family: Apple Chancery, cursive;
 }
 
-.projects td{
+.projects1 td{
   font-family: Apple Chancery, cursive;
+}
+
+.projects1 a{
+  color: white;
+  font-size: 1rem;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.projects1 a:hover {
+  color: #66BFBF;
+  text-decoration: underline;
 }
 
 .skills {
@@ -275,9 +286,17 @@ ul.demo {
 }
 
 .footer {
+  font-size: 20px;
   padding: 50px 0 20px;
   margin-bottom: 1rem;
   padding-top: 10px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .messages {
