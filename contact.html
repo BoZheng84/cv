@@ -4,19 +4,21 @@
   <head>
     <meta charset="utf-8">
     <title>Contact Information</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <address>Bo Zheng</address>
+    <h3>Bo Zheng</h3>
     <address>
       <p>Email: <a href="mailto:bo.zheng.working@gmail.com">bo.zheng.working@gmail.com</a></p>
       <p>Phone: <a href="tel:+12566651991">(256) 665-1991</a></p>
       <p>Home Address: <br>
-      <em>Baypointe Drive</em><br>
+      <em>Bay Pointe Drive</em><br>
       <em>Mason, OH 45040</em><br>
       <em>USA</em>
       </p>
     </address>
     <hr>
+    <div class="messages">
     <form action="mailto:bo.zheng.working@gmail.com" method="post" enctype="text/plain">
       <label>Your Name:</label>
       <input type="text" name="yourName" value=""><br>
@@ -24,8 +26,9 @@
       <input type="email" name="yourEmail" value=""><br>
       <label>Your Message:</label><br>
       <textarea name="youMesage" rows="10" cols="30"></textarea><br>
-      <input type="submit" name="">
+      <input class="submit" type="submit" name="submit">
     </form>
+    </div>
     <hr>
   </body>
 </html>

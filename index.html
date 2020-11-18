@@ -5,106 +5,332 @@
   <meta charset="utf-8">
   <meta name="description" content="This website provides information about Bo Zheng's Personal website including HTML, CSS.">
   <title>Bo's Personal Site</title>
-</head>
+  <!--this is the way to connect html and css files.-->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
 
-<body>
-  <table cellspacing="20">
+<body class="body-style">
+  <table cellspacing="30">
     <tr>
-      <td><img src="images\circle-cropped_me.png" alt="Bo profile picture"></td>
-      <td><h1>Bo Zheng</h1>
-      <p><em>Electrical Engineer</p>
-      <p><strong><a href="https://www.intelligrated.com/en">Honeywell Intelligrated</a></strong>.</em></p>
-      <p><em>Mason, OH 45040</em></p>
-      <p>I am an electrical engineer at Honeywell Intelligrated. Stong programming skills in Python, Java, Golang, JavaScript and C.</p>
-      <p>Link to: <a href="https://www.linkedin.com/in/bo-zheng-msee-bsme-06840bb0/">Linkedin</a></p>
-      <p>
-        Link to:
+      <td>
+        <img class="photo" src="images\circle-cropped_me.png" alt="Bo profile picture"><br>
+        <ul class="options">
+          <li class="nav-item">
+            <a class="nav-link" href="#objective">Objective</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#accomplishments">Accomplishments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hobbies">My Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiences">Experiences</a>
+          </li>
+        </ul>
+      </td>
+      <td>
+      <h1>Bo Zheng</h1>
+      <p style="color:#66B933"><em>Permanent Resident</em></p>
+      <p>A Self-learning Programmer.</p>
+      <p>Master Degree in Electrical Engineering</p>
+      <p>Mason, OH 45040</p>
+      <p>I am a driven self-starter, fast learner, energetic, ambitious person who has developed a mature and responsible approach to any task that I undertake, or situation that I am presented. I am willing to conquer any challenges in my personal or professional life.</p>
+      <p class="links">
+      <a class="linkedin" href="https://www.linkedin.com/in/bo-zheng-msee-bsme-06840bb0/">
+        <img src="images\Linkedin Logo.png" alt="Linkedin Logo">
+      </a>
+      <a class="github" href="https://github.com/BoZheng84">
+        <img src="images\github.png" alt="Github Logo">
+      </a>
+      <a class="hackerrank" href="https://www.hackerrank.com/Bo_Zheng">
+        <img src="images\hackrank .png" alt="HackerRank Logo">
+      </a><br>
+      </p>
         <a href="contact.html">Contact Information</a>
-      </p></td>
+      </td>
     </tr>
   </table>
-  <hr size="3" noshade>
-  <h3>Working Experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Title</th>
-        <th>Company</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2018-2021</td>
-        <td>Electrical Engineer</td>
-        <td>Honeywell Intelligrated</td>
-      </tr>
-      <tr>
-        <td>2017-2018</td>
-        <td>Field Service and Sales Support Engineer</td>
-        <td>Maruka,USA</td>
-      </tr>
-      <tr>
-        <td>2016-2017</td>
-        <td>Research Assistant</td>
-        <td>The University of Alabama in Huntsville</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr size="3" noshade>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <table>
-          <tbody>
-            <tr>
-              <td>Python</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>C</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>⭐⭐</td>
-            </tr>
+  <hr size="3">
 
-          </tbody>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tbody>
-            <tr>
-              <td>Java</td>
-              <td>⭐</td>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>CSS</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </table>
-  <hr size="3" noshade>
-  <h3>Education</h3>
-  <ul>
-    <li><a href="https://www.uah.edu/">The University of Alabama in Huntsville</a></li>
-    <li><a href="https://www.nchu.edu.cn/">Nanchang Hangkong University</a></li>
-  </ul>
-  <hr size="3" noshade>
-  <h3>My Hobbies</h3>
-  <ul>
-    <li>Watching TV</li>
-    <li>Playing Cellphone Games, like <a href="https://m.mobilelegends.com/en">Mobile Legend.</a></li>
-  </ul>
+  <section id="objective">
+    <!--Objective Section-->
+    <div class="objective">
+    <h2>Objective</h2>
+    <p>Looking for an entry-level software engineer position where I can improve my skills, to develop my personality, and to work well with other people.</p>
+    </div>
+    <hr size="3">
+  </section>
+
+  <section id="projects">
+    <!--Projects Section-->
+    <div class="projects">
+    <h2>Projects</h2>
+    <table cellspacing="20">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Methods</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Create a desktop app for storing data for books</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Create a database web app</td>
+          <td>PostGreSQL, HTML, CSS, Pyhton</td>
+        </tr>
+        <tr>
+          <td>Create a geocoding web app</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Personal Website with Python</td>
+          <td>HTML, CSS, Git, Python</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <hr size="3">
+  </section>
+
+  <section id="skills">
+    <!--Skills Section-->
+    <div class="skills">
+    <h2>Skills</h2>
+      <ul class="demo">
+        <li>
+          <h3>Python</h3><span class="bar"><span class="python"></span></span>
+        </li>
+
+        <li>
+          <h3>C</h3><span class="bar"><span class="c"></span></span>
+        </li>
+
+        <li>
+          <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
+        </li>
+
+        <li>
+          <h3>JAVA</h3><span class="bar"><span class="java"></span></span>
+        </li>
+
+        <li>
+          <h3>HTML5</h3><span class="bar"><span class="html"></span></span>
+        </li>
+
+        <li>
+          <h3>CSS</h3><span class="bar"><span class="css"></span></span>
+        </li>
+      </ul>
+    </div>
+    <hr size="3">
+  </section>
+
+  <section id="accomplishments">
+    <!--Accomplishments Section-->
+    <div class="accomplishments">
+    <h2>Accomplishments</h2>
+    <table cellspacing="20">
+      <thead>
+        <tr>
+          <th>Education Sites</th>
+          <th>Course Name</th>
+          <th>Course Contents</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img class="cirular1" src="images\Udemy.jpg" alt="HackerRank Logo">
+          </td>
+          <td>
+            The Complete 2020 Web Development Bootcamp <br>
+            Issued Dec 2020
+          </td>
+          <td>
+            <table cellpadding="10">
+              <tbody>
+                <tr>
+                  <td>HTML5</td>
+                  <td>CSS</td>
+                  <td>Javascript</td>
+                  <td>jQuery</td>
+                  <td>Github</td>
+                </tr>
+                <tr>
+                  <td>Node.js</td>
+                  <td>APIs</td>
+                  <td>MongoDB</td>
+                  <td>React.js</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img class="cirular2" src="images\HackerRank.jpg" alt="HackerRank Logo">
+          </td>
+          <td>
+            Python (Basic) <br>
+            Issued Jun 2020
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img class="cirular3" src="images\Udemy.jpg" alt="Udemy Logo">
+          </td>
+          <td>
+            C Programming For Begineers - Master the C Language <br>
+            Issued Apr 2020
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img class="cirular4" src="images\Udemy.jpg" alt="Udemy Logo">
+          </td>
+          <td>
+            Python for Data Science and Machine Learning Bootcamp <br>
+            Issued Apr 2018
+          </td>
+          <td>
+            <table cellspacing="10">
+              <tbody>
+                <tr>
+                  <td>Numpy</td>
+                  <td>SQL</td>
+                </tr>
+                <tr>
+                  <td>Pandas</td>
+                  <td>SciKit Learn</td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img class="cirular5" src="images\DataCamp.jpg" alt="DataCamp Logo">
+          </td>
+          <td>
+            Intro to Python for Data Science <br>
+            Issued Apr 2018
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <hr size="3">
+  </section>
+
+  <section id="experiences">
+    <!--Working Experience Section-->
+    <div class="working">
+    <h2>Experiences</h2>
+    <table cellspacing="20">
+      <thead>
+        <tr>
+          <th>Date Started</th>
+          <th>Date Finished</th>
+          <th>Position</th>
+          <th>Company</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2018</td>
+          <td>On Going</td>
+          <td>Electrical Engineer</td>
+          <td>Honeywell Intelligrated</td>
+        </tr>
+        <tr>
+          <td>2017</td>
+          <td>2018</td>
+          <td>Field Service and Sales Support Engineer</td>
+          <td>Maruka,USA</td>
+        </tr>
+        <tr>
+          <td>2016</td>
+          <td>2017</td>
+          <td>Research Assistant</td>
+          <td>The University of Alabama in Huntsville</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <hr size="3">
+  </section>
+
+  <section id="education">
+    <!--Education Background Section-->
+    <div class="education">
+    <h2>Education</h2>
+      <table cellspacing="20">
+        <thead>
+          <tr>
+            <th>Date Started</th>
+            <th>Date Finished</th>
+            <th>University</th>
+            <th>Degree Level</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Aug 2012</td>
+            <td>Dec 2016</td>
+            <td>The University of Alabama in Huntsville</td>
+            <td>Master of Electrical Engineering</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Sep 2004</td>
+            <td>Jun 2008</td>
+            <td>Nanchang University of Aeronautics</td>
+            <td>Bachelor of Mechanical Engineering</td>
+            <td>China</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <hr size="3">
+  </section>
+
+  <section id="hobbies">
+    <!--My Hobbiles Section-->
+    <div class="hobbies">
+    <h2>My Hobbies</h2>
+    <ul>
+      <li>Staying with my family</li>
+      <li>Learning & Reading books</li>
+      <li>Watching Movies and web series</li>
+      <li>Listening podcast</li>
+    </ul>
+    </div>
+    <hr size="3">
+  </section>
+
+  <div class="footer">
+  <center>
+    <footer>
+      <a href="#">TOP</a>
+      <a href="contact.html">Contact</a>
+    </footer>
+  </center>
+  </div>
 </body>
 </html>
